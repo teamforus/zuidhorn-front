@@ -33,6 +33,7 @@ body {
 
 .buttonToNextWebsite:hover {
 	box-shadow: 6px 6px 20px grey;
+	transition: all 0.2s ease;
 
 }
 
@@ -68,6 +69,7 @@ body {
 }
 
 .row a:hover{
+
     text-decoration: none;
 	}
 
@@ -84,17 +86,5 @@ body {
 .textHolder p {
 	margin-top: 30px;
 }
-
-}
-
-@media (max-width: 800px) {
-	#buttonToKindpakket {
-		float: none;
-
-	}
-
-	#buttonToShopkeepers {
-		float: none;
-	}
 
 }
