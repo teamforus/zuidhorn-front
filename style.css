@@ -1,11 +1,100 @@
+
+
+
 body {
-	text-align: center;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-    background-color: black;
-    color: white;
+	padding-top: 200px;
 }
 
-.landing {
-	margin-top: 175pt;
+
+
+#logoPlaceholder {
+
+	width: 20%;
+	min-width: 250px;
+  margin:0 auto;
+}
+
+#buttonsPlaceholder {
+	margin:0 auto;
+	width: 50%;
+}
+
+.buttonToNextWebsite {
+	width: 100%;
+	margin-top: 100px;
+
+
+	border-radius: 6px;
+	background-color: white;
+	box-shadow: 3px 3px 18px grey;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.buttonToNextWebsite:hover {
+	box-shadow: 6px 6px 20px grey;
+
+}
+
+
+
+.topArea {
+	width: 100%;
+	padding: 5px;
+	max-width: 100%;
+	color: #083f49;
+	font-size: 18px;
+	font-weight: 425;
+
+
+}
+
+.textHolder {
+	margin: 20px;
+}
+
+.bottomArea {
+	height:40px;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	background-color: #70c567;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-size: 16px;
+	color: white;
+	font-weight: 200;
+	line-height: 40px;
+}
+
+.row a:hover{
+    text-decoration: none;
+	}
+
+.bottomArea i {
+	 right: 40px;
+	 line-height: 40px;
+	 position: absolute;
+ }
+
+#buttonToKindpakket .bottomArea {
+	background-color: #3396a7;
+}
+
+.textHolder p {
+	margin-top: 30px;
+}
+
+}
+
+@media (max-width: 800px) {
+	#buttonToKindpakket {
+		float: none;
+
+	}
+
+	#buttonToShopkeepers {
+		float: none;
+	}
+
 }
