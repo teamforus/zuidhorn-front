@@ -1,0 +1,4 @@
+[submodule "kindpakket"]
+	path = kindpakket
+	url = git@github.com:teamforus/zuidhorn-front-kindpakket.git
+	branch = testing
